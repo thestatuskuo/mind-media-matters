@@ -316,7 +316,7 @@ body {
 .nav-primary {
 	background: #333333;
 	border-top: 0px solid #DDDDDD;
-	border-bottom: 2px solid #DDDDDD;
+	border-bottom: 0px solid #DDDDDD;
 	border-left: 0px solid #DDDDDD;
 	border-right: 0px solid #DDDDDD;
 	margin: 0px 0 0px 0;
@@ -752,7 +752,7 @@ ul.genesis-nav-menu li.sfHover ul {
 #dropdown-nav {
 	background: #333333;
 	border-top: 0px solid #DDDDDD;
-	border-bottom: 2px solid #DDDDDD;
+	border-bottom: 0px solid #DDDDDD;
 	border-left: 0px solid #DDDDDD;
 	border-right: 0px solid #DDDDDD;
 }
@@ -1328,7 +1328,7 @@ body.search .content h1.archive-title {
 .content h2.entry-title,
 .content .entry-content h2 {
 	color: #333333;
-	font-size: 34px; font-size: 3.4rem;
+	font-size: 32px; font-size: 3.2rem;
 }
 
 .dynamik-page-builder .site-inner h3,
@@ -1344,7 +1344,7 @@ body.search .content h1.archive-title {
 .content .page h4,
 .content .entry-content h4 {
 	color: #333333;
-	font-size: 26px; font-size: 2.6rem;
+	font-size: 22px; font-size: 2.2rem;
 }
 
 .dynamik-page-builder .site-inner h5,
