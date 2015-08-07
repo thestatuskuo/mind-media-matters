@@ -3,6 +3,18 @@
 *{
 box-sizing:border-box;
 }
+.full-width-content .site-inner, .full-width-content .content-sidebar-wrap, .full-width-content .content{
+width:100%;
+max-width:none;
+}
+.container{
+overflow:hidden;
+}
+.content-wrap{
+width:1060px;
+margin-left:auto;
+margin-right:auto;
+}
 @font-face {
     font-family: 'aaargh';
     src: url('fonts/aaargh/Aaargh-webfont.eot');
@@ -14,10 +26,13 @@ box-sizing:border-box;
     font-style: normal;
 }
 .pb-50{
-	padding-bottom:30px;
+padding-bottom:30px;
 }
 .t-center{
 text-align:center;
+}
+.bg-black{
+background:#000000;
 }
 .h-box{
 height:250px;
