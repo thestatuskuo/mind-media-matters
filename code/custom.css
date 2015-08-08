@@ -1,6 +1,39 @@
 *{
 box-sizing:border-box;
 }
+@font-face {
+    font-family: 'aaargh';
+    src: url('fonts/aaargh/Aaargh-webfont.eot');
+    src: url('fonts/aaargh/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aaargh/Aaargh-webfont.woff') format('woff'),
+         url('fonts/aaargh/Aaargh-webfont.ttf') format('truetype'),
+         url('fonts/aaargh/Aaargh-webfont.svg#aaargh') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'phosphatesolid';
+    src: url('fonts/phosphate/phosphate-solid-webfont.eot');
+    src: url('fonts/phosphate/phosphate-solid-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/phosphate/phosphate-solid-webfont.woff2') format('woff2'),
+         url('fonts/phosphate/phosphate-solid-webfont.woff') format('woff'),
+         url('fonts/phosphate/phosphate-solid-webfont.ttf') format('truetype'),
+         url('fonts/phosphate/phosphate-solid-webfont.svg#phosphatesolid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+iframe,
+object,
+embed{
+border:15px solid lightgray;
+-webkit-border-radius: 15px !important; 
+-ms-border-radius: 15px !important; 
+-o-border-radius: 15px !important; 
+border-radius: 15px !important;
+}
+h1, h2, h3, h4, h5, h6{
+/*font-family:'phosphatesolid', 'sans-serif';*/
+}
 .full-width-content .site-inner, .full-width-content .content-sidebar-wrap, .full-width-content .content{
 width:100%;
 max-width:none;
@@ -13,30 +46,29 @@ width:1060px;
 margin-left:auto;
 margin-right:auto;
 }
-@font-face {
-    font-family: 'aaargh';
-    src: url('fonts/aaargh/Aaargh-webfont.eot');
-    src: url('fonts/aaargh/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/aaargh/Aaargh-webfont.woff') format('woff'),
-         url('fonts/aaargh/Aaargh-webfont.ttf') format('truetype'),
-         url('fonts/aaargh/Aaargh-webfont.svg#aaargh') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 .mb-30{
 margin-bottom:30px !important;
 }
-.mt-50{
-margin-top:50px !important;
+.mb-40{
+margin-bottom:40px !important;
 }
 .mb-50{
 margin-bottom:50px !important;
 }
+.mt-50{
+margin-top:50px !important;
+}
 .pt-50{
-padding-top:50px;
+padding-top:50px !important;
+}
+.pb-30{
+padding-bottom:30px !important;
+}
+.pb-40{
+padding-bottom:40px !important;
 }
 .pb-50{
-padding-bottom:50px;
+padding-bottom:50px !important
 }
 .t-i{
 	font-style:italic;
