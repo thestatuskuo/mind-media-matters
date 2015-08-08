@@ -33,8 +33,9 @@ border:15px solid lightgray;
 -o-border-radius: 15px !important; 
 border-radius: 15px !important;
 }
-h1, h2, h3, h4, h5, h6{
-/*font-family:'phosphatesolid', 'sans-serif';*/
+h1, h2, h4, h5, h6{
+font-family:'phosphatesolid', 'sans-serif' !important;
+letter-spacing:2px;
 }
 .full-width-content .site-inner, .full-width-content .content-sidebar-wrap, .full-width-content .content{
 width:100%;
@@ -56,6 +57,9 @@ margin-bottom:40px !important;
 }
 .mb-50{
 margin-bottom:50px !important;
+}
+.mb-70{
+margin-bottom:70px !important;	
 }
 .mt-50{
 margin-top:50px !important;
@@ -87,19 +91,29 @@ background:#F7F7F7;
 .bg-black{
 background:#000000;
 }
+.bg-grayblack{
+background:#474747;
+}
+.bg-brown{
+background:#977B53;
+}
+.bg-grayblue{
+background:#586579;	
+}
 body.home .nav-primary{
 display:none;
 }
 .one-third{
 width:33.33%;
+margin:0;
 }
 .one-fourth{
 width:25%;
+margin:0;
 }
 .h-box{
 height:250px;
 padding:20px;
-margin:0;
 text-align:center;
 }
 .h-box img{
@@ -150,7 +164,15 @@ margin-top:-20px;
 #h-struggle h2, #h-struggle p{
 color:#FFFFFF;
 }
-
+.h-meet, .h-solution{
+padding:0 20px;
+}
+.h-meet img, .h-solution img{
+height:70px;
+}
+#h-learning h2, #h-learning p{
+color:#FFFFFF;
+}
 
 /* Custom Responsive CSS
 ------------------------------------------------------------ */
