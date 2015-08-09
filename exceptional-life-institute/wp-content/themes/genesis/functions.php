@@ -26,3 +26,14 @@ require_once( dirname( __FILE__ ) . '/lib/init.php' );
 
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
+
+
+//* Customize the entire footer
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+add_action( 'genesis_footer', 'sp_custom_footer' );
+function sp_custom_footer() {
+	?>
+	<p>&copy; Copyright 2015 <a href="http://exceptionallifeinstitute.com/">Exceptional Life Institute</a> &middot; All Rights Reserved</p>
+	<?php
+}
+?>
