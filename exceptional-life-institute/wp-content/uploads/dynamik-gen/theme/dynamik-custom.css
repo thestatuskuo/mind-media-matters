@@ -3,6 +3,16 @@
 *{
 box-sizing:border-box;
 }
+.clearfix{
+clear:both;
+}
+.clearfix:after{
+content: "."; 
+visibility: hidden; 
+display: block; 
+height: 0; 
+clear: both;
+}
 @font-face {
     font-family: 'aaargh';
     src: url('fonts/aaargh/Aaargh-webfont.eot');
@@ -32,6 +42,9 @@ border:15px solid lightgray;
 -ms-border-radius: 15px !important; 
 -o-border-radius: 15px !important; 
 border-radius: 15px !important;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 h1, h2, h4, h5, h6{
 font-family:'phosphatesolid', 'sans-serif' !important;
@@ -58,11 +71,11 @@ margin-bottom:40px !important;
 .mb-50{
 margin-bottom:50px !important;
 }
+.mb-60{
+margin-bottom:60px !important;
+}
 .mb-70{
 margin-bottom:70px !important;	
-}
-.mt-50{
-margin-top:50px !important;
 }
 .pt-50{
 padding-top:50px !important;
@@ -74,6 +87,9 @@ padding-bottom:30px !important;
 padding-bottom:40px !important;
 }
 .pb-50{
+padding-bottom:50px !important
+}
+.pb-60{
 padding-bottom:50px !important
 }
 .t-i{
@@ -99,6 +115,19 @@ background:#977B53;
 }
 .bg-grayblue{
 background:#586579;	
+}
+.bg-brilliant{
+background:url('http://exceptionallifeinstitute.com/wp-content/uploads/brilliant.png');	
+}
+.b-orange{
+background:#FF7600;
+color:#FFFFFF;
+font-weight:bold;
+font-size:2.0rem;
+padding:15px 60px;
+border-style:none none solid none;
+border-width:5px;
+border-color:#C55B00;
 }
 body.home .nav-primary{
 display:none;
@@ -169,6 +198,7 @@ padding:0 20px;
 }
 .h-meet img, .h-solution img{
 height:70px;
+margin-bottom:15px;
 }
 #h-learning h2, #h-learning p{
 color:#FFFFFF;
