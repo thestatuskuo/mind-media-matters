@@ -56,6 +56,16 @@ h1, h2, h4, h5, h6{
 font-family:'phosphatesolid', 'sans-serif' !important;
 letter-spacing:2px;
 }
+.content, .site-inner{
+padding-bottom:0;
+}
+.site-footer{
+border:0;	
+}
+.site-footer p{
+text-align:left;
+font-size:1.4rem;
+}
 .full-width-content .site-inner, .full-width-content .content-sidebar-wrap, .full-width-content .content{
 width:100%;
 max-width:none;
@@ -152,6 +162,8 @@ padding:15px 60px;
 border-style:none none solid none;
 border-width:5px;
 border-color:#C55B00;
+font-family:'PT Sans', 'sans-serif';
+letter-spacing:0.5px;
 }
 .triangle-isosceles {
   position:relative;
@@ -295,6 +307,7 @@ border-color:#0084BC;
 -ms-border-radius: 5px !important; 
 -o-border-radius: 5px !important; 
 border-radius: 5px !important;
+letter-spacing:0.5px;
 }
 #_form_14 .formwrapper{
 width: 45%;
