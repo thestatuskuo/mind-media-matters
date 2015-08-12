@@ -21,22 +21,22 @@ border-top:1px solid #F1F1F1;
 }
 @font-face {
     font-family: 'aaargh';
-    src: url('fonts/aaargh/Aaargh-webfont.eot');
-    src: url('fonts/aaargh/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/aaargh/Aaargh-webfont.woff') format('woff'),
-         url('fonts/aaargh/Aaargh-webfont.ttf') format('truetype'),
-         url('fonts/aaargh/Aaargh-webfont.svg#aaargh') format('svg');
+    src: url('../fonts/aaargh/Aaargh-webfont.eot');
+    src: url('../fonts/aaargh/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aaargh/Aaargh-webfont.woff') format('woff'),
+         url('../fonts/aaargh/Aaargh-webfont.ttf') format('truetype'),
+         url('../fonts/aaargh/Aaargh-webfont.svg#aaargh') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'phosphatesolid';
-    src: url('fonts/phosphate/phosphate-solid-webfont.eot');
-    src: url('fonts/phosphate/phosphate-solid-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/phosphate/phosphate-solid-webfont.woff2') format('woff2'),
-         url('fonts/phosphate/phosphate-solid-webfont.woff') format('woff'),
-         url('fonts/phosphate/phosphate-solid-webfont.ttf') format('truetype'),
-         url('fonts/phosphate/phosphate-solid-webfont.svg#phosphatesolid') format('svg');
+    src: url('../fonts/phosphate/phosphate-solid-webfont.eot');
+    src: url('../fonts/phosphate/phosphate-solid-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/phosphate/phosphate-solid-webfont.woff2') format('woff2'),
+         url('../fonts/phosphate/phosphate-solid-webfont.woff') format('woff'),
+         url('../fonts/phosphate/phosphate-solid-webfont.ttf') format('truetype'),
+         url('../fonts/phosphate/phosphate-solid-webfont.svg#phosphatesolid') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -52,9 +52,9 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
-h1, h2, h4, h5, h6{
+.f-phosphate{
 font-family:'phosphatesolid', 'sans-serif' !important;
-letter-spacing:2px;
+letter-spacing:2px;	
 }
 .content, .site-inner{
 padding-bottom:0;
@@ -124,13 +124,16 @@ padding-bottom:60px !important
 padding-bottom:70px !important
 }
 .t-i{
-	font-style:italic;
+font-style:italic;
 }
 .t-center{
 text-align:center;
 }
 .t-gray{
 color:gray !important;	
+}
+.t-white{
+color:white !important;
 }
 .bg-lightgray{
 background:#F7F7F7;
@@ -188,9 +191,71 @@ font-size:1.6rem !important;
   display:block;
   width:0;
 }
-body.home .nav-primary{
-display:none;
+.ribbon{
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+ position: relative;
+ background: orange;
+ text-align: center;
+ padding: 25px 0 16px; /* Adjust to suit */
+ margin: 0 auto;
 }
+
+.ribbon:before{
+left: -55px;
+border-right-width: 40px;
+border-left-color: transparent !important;	
+}
+.ribbon:after{
+right: -55px;
+border-left-width: 40px;
+border-right-color: transparent !important;
+}
+
+.ribbon:before, .ribbon:after{
+content: "";
+position: absolute;
+display: block;
+bottom: 0;
+border: 50px solid orange;
+z-index: -1;	
+}
+.relationships.ribbon{
+width:57%;
+}
+.relationships.ribbon:before, .relationships.ribbon:after{
+border-color: #D2000F;	
+}
+.fear.ribbon{
+width:80%;
+}
+.fear.ribbon:before, .fear.ribbon:after{
+border-color: #F8E700;	
+}
+.passion.ribbon{
+width:60%;
+}
+.passion.ribbon:before, .passion.ribbon:after{
+border-color: #0F4E99;	
+}
+.health.ribbon{
+width:45%;
+}
+.health.ribbon:before, .health.ribbon:after{
+border-color: #7BD300;	
+}
+.spirituality.ribbon{
+width:58%;
+}
+.spirituality.ribbon:before, .spirituality.ribbon:after{
+border-color: #8230CC;	
+}
+.dreamjob.ribbon{
+width:58%;
+}
+.dreamjob.ribbon:before, .dreamjob.ribbon:after{
+border-color: #F6A600;	
+}
+.non-semantic-protector{position: relative; z-index: 1;}
 .h-box{
 height:250px;
 padding:20px;
@@ -207,25 +272,25 @@ font-size:1.4rem;
 font-weight:bold;
 font-family:'aaargh','sans-serif';
 }
-#h-relationships{
+.relationships{
 background:#D2000F;
 }
-#h-fear{
+.fear{
 background:#F8E700;
 }
-#h-fear p{
+.fear p{
 color:#4A4A4A;
 }
-#h-passion{
+.passion{
 background:#104E99;
 }
-#h-health{
+.health{
 background:#7BD300;
 }
-#h-spirituality{
+.spirituality{
 background:#8230CC;
 }
-#h-dreamjob{
+.dreamjob{
 background:#F6A600;
 }
 .h-seen{
@@ -322,6 +387,11 @@ font-weight:bold;
 
 #_form_14 #notice{
 display:none;
+}
+.improve-life a{
+display:block;
+font-family:'PT Sans', sans-serif;
+font-size:1.8rem;
 }
 
 /* Custom Responsive CSS

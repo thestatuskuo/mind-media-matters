@@ -241,7 +241,7 @@ body {
 }
 
 .title-area {
-	width: 400px;
+	width: 380px;
 	padding: 12px 0 0 0px;
 	float: left;
 	overflow: hidden;
@@ -295,7 +295,7 @@ body {
 .header-image .title-area,
 .header-image .site-title,
 .header-image .site-title a {
-	width: 400px;
+	width: 380px;
 	height: 100px;
 	padding: 0;
 	float: left;
@@ -1281,7 +1281,7 @@ p.subscribe-to-comments {
 .content .entry-content h6,
 body.search .content h1.archive-title {
 	margin: 0 0 10px;
-	font-family: 'Bitter', serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	line-height: 1.25;
 }
