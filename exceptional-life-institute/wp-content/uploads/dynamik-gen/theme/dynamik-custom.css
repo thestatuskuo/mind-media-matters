@@ -196,17 +196,17 @@ font-size:1.6rem !important;
  position: relative;
  background: orange;
  text-align: center;
- padding: 25px 0 16px; /* Adjust to suit */
+ padding: 14px 0 5px; /* Adjust to suit */
  margin: 0 auto;
 }
 
 .ribbon:before{
-left: -55px;
+left: -51px;
 border-right-width: 40px;
 border-left-color: transparent !important;	
 }
 .ribbon:after{
-right: -55px;
+right: -51px;
 border-left-width: 40px;
 border-right-color: transparent !important;
 }
@@ -216,23 +216,23 @@ content: "";
 position: absolute;
 display: block;
 bottom: 0;
-border: 50px solid orange;
+border: 38px solid orange;
 z-index: -1;	
 }
 .relationships.ribbon{
-width:57%;
+width:52%;
 }
 .relationships.ribbon:before, .relationships.ribbon:after{
 border-color: #D2000F;	
 }
 .fear.ribbon{
-width:80%;
+width:73%;
 }
 .fear.ribbon:before, .fear.ribbon:after{
 border-color: #F8E700;	
 }
 .passion.ribbon{
-width:60%;
+width:55%;
 }
 .passion.ribbon:before, .passion.ribbon:after{
 border-color: #0F4E99;	
@@ -250,7 +250,7 @@ width:58%;
 border-color: #8230CC;	
 }
 .dreamjob.ribbon{
-width:58%;
+width:54%;
 }
 .dreamjob.ribbon:before, .dreamjob.ribbon:after{
 border-color: #F6A600;	
