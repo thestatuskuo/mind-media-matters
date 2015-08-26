@@ -270,7 +270,7 @@ body {
 	margin: 0;
 	padding: 0px 0 0;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	font-weight: 300;
 }
@@ -321,7 +321,7 @@ body {
 	border-right: 0px solid #DDDDDD;
 	margin: 0px 0 0px 0;
 	color: #AAAAAA;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	line-height: 1em;
 	clear: both;
@@ -478,7 +478,7 @@ ul.genesis-nav-menu li.sfHover ul {
 
 .genesis-nav-menu li.right {
 	color: #FFFFFF;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	padding: 17px 15px 0 0;
 	float: right;
@@ -527,7 +527,7 @@ ul.genesis-nav-menu li.sfHover ul {
 	border-right: 0px solid #DDDDDD;
 	margin: 0px 0 0px 0;
 	color: #888888;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	line-height: 1em;
 	clear: both;
@@ -769,7 +769,7 @@ ul.genesis-nav-menu li.sfHover ul {
 
 .nav-chosen-select {
 	color: #AAAAAA;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -813,7 +813,7 @@ ul.genesis-nav-menu li.sfHover ul {
 
 .subnav-chosen-select {
 	color: #888888;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -843,7 +843,7 @@ ul.genesis-nav-menu li.sfHover ul {
 	margin: 0px 0 0px 0;
 	padding: 0;
 	color: #888888;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	line-height: 1em;
 	overflow: hidden;
@@ -1014,7 +1014,7 @@ ul.genesis-nav-menu li.sfHover ul {
 	margin-bottom: 30px;
 	padding: 13px 20px 11px 25px;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -1039,7 +1039,7 @@ ul.genesis-nav-menu li.sfHover ul {
 	margin: -10px 0 30px;
 	padding: 0;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -1184,7 +1184,7 @@ ul.genesis-nav-menu li.sfHover ul {
 .entry-content ul li,
 .entry-content ol li {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 18px; font-size: 1.8rem;
 }
 
@@ -1216,7 +1216,7 @@ ul.genesis-nav-menu li.sfHover ul {
 .dynamik-page-builder .site-inner blockquote p,
 .content blockquote p {
 	color: #999999;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 18px; font-size: 1.8rem;
 	font-style: italic;
 }
@@ -1281,7 +1281,7 @@ p.subscribe-to-comments {
 .content .entry-content h6,
 body.search .content h1.archive-title {
 	margin: 0 0 10px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Lato', 'sans-serif';
 	font-weight: 300;
 	line-height: 1.25;
 }
@@ -1529,7 +1529,7 @@ body.search .content h1.archive-title {
 
 #ez-home-container-wrap .ez-widget-area {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -1674,7 +1674,7 @@ body.search .content h1.archive-title {
 
 #ez-feature-top-container .ez-widget-area {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -1764,7 +1764,7 @@ body.search .content h1.archive-title {
 
 #ez-fat-footer-container .ez-widget-area {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -1805,7 +1805,7 @@ body.search .content h1.archive-title {
 	border-left: 0px solid #DDDDDD;
 	border-right: 0px solid #DDDDDD;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1816,7 +1816,7 @@ body.search .content h1.archive-title {
 .dynamik-widget-area ul li,
 .dynamik-widget-area.entry-content ol li {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -1912,7 +1912,7 @@ body.search .content h1.archive-title {
 .entry-header .entry-meta {
 	margin: -5px 0 15px;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -1940,7 +1940,7 @@ body.search .content h1.archive-title {
 	border-top: 2px solid #DDDDDD;
 	padding: 5px 0 0;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	font-style: italic;
 	clear: both;
@@ -1982,7 +1982,7 @@ body.search .content h1.archive-title {
 
 .author-box-content {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -2115,7 +2115,7 @@ img.alignright {
 p.wp-caption-text {
 	margin: 5px 0;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -2173,7 +2173,7 @@ p.wp-caption-text {
 .entry-pagination a,
 .entry-pagination a:visited {
 	color: #0037B4;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	text-decoration: none;
 }
@@ -2193,7 +2193,7 @@ p.wp-caption-text {
 	margin: 0 0px 0 0px;
 	padding: 8px 12px 8px 12px;
 	color: #0037B4;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	text-decoration: none;
 }
@@ -2284,7 +2284,7 @@ p.wp-caption-text {
 .sidebar-secondary,
 #ez-home-sidebar {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -2383,7 +2383,7 @@ p.wp-caption-text {
 .featuredpage .page p,
 .featuredpost .post p {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
@@ -2427,7 +2427,7 @@ p.wp-caption-text {
 .featuredpage .page .byline,
 .featuredpost .post .entry-header .entry-meta {
 	color: #333333 !important;
-	font-family: 'PT Sans', 'sans-serif' !important;
+	font-family: 'PT Sans', sans-serif !important;
 	font-size: 14px; font-size: 1.4rem !important;
 }
 
@@ -2485,7 +2485,7 @@ p.wp-caption-text {
 	margin: 10px 5px 0 0;
 	padding: 9px 5px 10px 10px;
 	color: #888888;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	-webkit-appearance: none;
 }
@@ -2504,7 +2504,7 @@ p.wp-caption-text {
 	margin: 0;
 	padding: 10px 14px 10px 14px;
 	color: #FFFFFF;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	line-height: 19px;
 	cursor: pointer;
@@ -2682,7 +2682,7 @@ p.wp-caption-text {
 
 .site-footer p {
 	color: #FFFFFF;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	text-align: center;
 }
@@ -2743,7 +2743,7 @@ p.wp-caption-text {
 	margin: 0 5px 10px 0;
 	padding: 5px;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	-webkit-box-shadow: 0 1px 2px #E8E8E8 inset;
 	box-shadow: 0 1px 2px #E8E8E8 inset;
@@ -2761,7 +2761,7 @@ p.wp-caption-text {
 	width: auto;
 	padding: 10px 14px 10px 14px;
 	color: #FFFFFF;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	line-height: 19px;
 	cursor: pointer;
@@ -2777,7 +2777,7 @@ p.wp-caption-text {
 
 .comment-author {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 }
 
 .comment-author span,
@@ -2839,7 +2839,7 @@ p.wp-caption-text {
 .comment-content p,
 #respond p {
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 	font-weight: 300;
 }
@@ -2861,7 +2861,7 @@ p.wp-caption-text {
 .comment-meta {
 	margin: 0 0 5px;
 	color: #0037B4;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px; font-size: 1.4rem;
 	font-weight: normal;
 }
@@ -2886,7 +2886,7 @@ a.comment-reply-link:visited {
 	border-right: 0px solid #CCCCCC;
 	padding: 8px 12px 8px 12px;
 	color: #333333;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px; font-size: 1.4rem;
 	font-weight: 300;
 	text-decoration: none;
@@ -2945,7 +2945,7 @@ a.comment-reply-link:hover {
 
 #respond p.form-allowed-tags {
 	color: #666666;
-	font-family: 'PT Sans', 'sans-serif';
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px; font-size: 1.6rem;
 }
 
