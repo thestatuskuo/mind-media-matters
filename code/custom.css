@@ -14,8 +14,17 @@ clear: both;
 .fr{
 float:right !important;
 }
+.fl{
+float:left !important;
+}
+.last{
+margin-right:0 !important;
+}
 .bt-gray{
 border-top:1px solid #F1F1F1;
+}
+h1, h2, h3, h4, h5, h6{
+font-weight:400 !important;
 }
 @font-face {
     font-family: 'aaargh';
@@ -127,6 +136,9 @@ font-style:italic;
 .t-center{
 text-align:center;
 }
+.t-uppercase{
+text-transform:uppercase;
+}
 .t-gray{
 color:gray !important;  
 }
@@ -165,6 +177,18 @@ border-width:5px;
 border-color:#C55B00;
 font-family:'PT Sans', 'sans-serif';
 letter-spacing:0.5px;
+}
+.b-more{
+background:#00B3FF;;
+color:#FFFFFF;
+font-size:1.4rem;
+padding:5px 12px;
+border-style:none none solid none;
+border-width:5px;
+border-color:#0084BC;
+font-family:'PT Sans', 'sans-serif';
+letter-spacing:0.5px;
+margin-top:10px;
 }
 .triangle-isosceles {
   position:relative;
@@ -223,10 +247,10 @@ width:52%;
 .relationships.ribbon:before, .relationships.ribbon:after{
 border-color: #D2000F;  
 }
-.fear.ribbon{
+.confidence.ribbon{
 width:73%;
 }
-.fear.ribbon:before, .fear.ribbon:after{
+.confidence.ribbon:before, .confidence.ribbon:after{
 border-color: #F8E700;  
 }
 .passion.ribbon{
@@ -247,10 +271,10 @@ width:58%;
 .spirituality.ribbon:before, .spirituality.ribbon:after{
 border-color: #8230CC;  
 }
-.dreamjob.ribbon{
+.career.ribbon{
 width:54%;
 }
-.dreamjob.ribbon:before, .dreamjob.ribbon:after{
+.career.ribbon:before, .career.ribbon:after{
 border-color: #F6A600;  
 }
 .non-semantic-protector{position: relative; z-index: 1;}
@@ -273,10 +297,10 @@ font-family:'aaargh','sans-serif';
 .relationships{
 background:#D2000F;
 }
-.fear{
+.confidence{
 background:#F8E700;
 }
-.fear p{
+.confidence p{
 color:#4A4A4A;
 }
 .passion{
@@ -288,7 +312,7 @@ background:#7BD300;
 .spirituality{
 background:#8230CC;
 }
-.dreamjob{
+.career{
 background:#F6A600;
 }
 .h-seen{
@@ -390,4 +414,73 @@ display:none;
 display:block;
 font-family:'PT Sans', sans-serif;
 font-size:1.8rem;
+}
+.hero-wrap{
+background:orange;
+overflow:auto;
+padding:40px;
+}
+.hero-copy{
+width:50%
+}
+.hero-copy p{
+margin:0;
+}
+.s-title{
+font-family:"Lato", sans-serif !important;
+font-weight:400;
+text-transform:uppercase;
+text-align:center;
+font-size:2.0rem;
+}
+p.s-category{
+padding:8px 10px;
+font-size:1.5rem;
+margin-right:0.5%;
+text-transform:uppercase;
+float:left;
+font-family:"Lato", sans-serif;
+text-align:center;
+width:13.85%;
+letter-spacing:0.5px;
+font-weight:bold;
+}
+.s-box{
+overflow:auto;
+clear:both;
+background:white; 
+margin-bottom:20px;
+padding:30px 60px;
+}
+.s-box h2{
+font-family:"Lato", sans-serif !important;
+font-weight:bold !important;
+text-transform:uppercase;
+text-align:center;
+font-size:2.2rem !important;
+letter-spacing:1px;
+}
+.s-item img{
+width:90px;
+float:left;
+margin:5px 20px 50px 0;
+}
+.s-item p{
+margin:0;
+overflow:auto;
+font-size:1.6rem;
+line-height:1.5;
+}
+.s-item{
+float:left;
+width:45%;
+}
+.s-item h3{
+font-size:2.2rem !important;
+}
+.s-item button{
+display:block;  
+}
+.fundamentals{
+background:gray;
 }
